@@ -1,8 +1,8 @@
-# Deployment Model CNN (Elephant vs Lion)
+# Deployment Model CNN (Jeruk Nipis vs Sirih)
 
 ## Deskripsi singkat
 
-Repository ini berisi semua file yang dibutuhkan untuk melakukan deployment model Machine Learning Image Classification menggunakan CNN (Convolutional Neural Network). Adapun model yang digunakan merupakan model untuk memprediksi gambar gajah atau singa (Elephant vs Lion).
+Repository ini berisi semua file yang dibutuhkan untuk melakukan deployment model Machine Learning Image Classification menggunakan CNN (Convolutional Neural Network). Adapun model yang digunakan merupakan model untuk memprediksi gambar daun jeruk nipis atau daun sirih.
 
 #
 
@@ -23,7 +23,7 @@ Agar dapat memprediksi kucing atau anjing, data input model harus mengikuti form
 -   templates/
     -   index.html --> Berisi template website.
 -   app.py --> Berisi konfigurasi route dan proses prediksi model untuk API.
--   elephant_lion_class_model.h5 --> Model Image Classification CNN yang sudah di-training.
+-   jeruknipis_sirih_class_model.h5 --> Model Image Classification CNN yang sudah di-training.
 -   requirements.txt --> Berisi daftar dependency/package Python yang diperlukan untuk menjalankan API dan model Image Classification CNN.
 
 #
@@ -44,5 +44,5 @@ Agar dapat memprediksi kucing atau anjing, data input model harus mengikuti form
 ## Akses melalui Website
 
 1. Anda akan diberikan URL untuk membuka website berupa `localhost:5000/` atau `127.0.0.1:5000/`.
-1. Buka URL dengan browser, coba masukkan gambar gajah atau singa yang ingin di prediksi.
-1. Anda akan diberikan prediksi bahwa pada gambar tersebut adalah gajah atau singa pada halaman website.
+1. Buka URL dengan browser, coba masukkan gambar daun jeruk nipis atau daun sirih yang ingin di prediksi.
+1. Anda akan diberikan prediksi bahwa pada gambar tersebut adalah daun jeruk nipis atau daun sirih pada halaman website.
